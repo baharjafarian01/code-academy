@@ -1,0 +1,98 @@
+@font-face {
+    font-family:"vazir";
+    font-weight:normal;
+    src: url( "../Fonts/Vazir.eot" );
+    src: 
+    url( "../Fonts/Vazir.woff" )
+    format( "woff" ),
+    url( "../Fonts/Vazir.ttf" )
+    format( "truetype" );
+}
+
+*{
+    font-family: "vazir" !important;
+    direction: rtl;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+  
+  }
+
+  body{
+      background-color: #6c757d;
+  }
+
+  .login{
+      display: flex;
+      flex-direction: column;
+      height: 100vh;
+      justify-content: center;
+      align-items: center;
+      margin: auto;
+  }
+
+  .login h1{
+      font-size: 20px;
+      color: #ffffff;
+      margin: 20px;
+      padding-bottom: 14px;
+      border-bottom: 1px solid gray;
+      transition: 1s;
+
+  }
+
+  .login h1:hover{
+      font-size: 30px;
+      color: #ffffff;
+  }
+
+  .login input[type="text" ], input[type= "password"] {
+  margin: 20px;
+  padding: 10px 14px;
+  width: 300px;
+  border-radius: 24px;
+  border: 1px solid rgb(0, 0, 110);
+  outline: 0;
+  transition: 0.5s;
+  }
+  
+  .login input[type="submit" ] {
+    margin: 20px;
+    padding: 10px 14px;
+    width: 90px;
+    border-radius: 24px;
+    border: 1px solid rgb(0, 0, 110);
+    outline: 0;
+    background-color: #ffffff;
+    cursor: pointer;
+    }
+
+    .login input[type="submit" ]:hover{
+        background-color: rgb(115, 192, 115);
+        color: #ffffff;
+        border: none;
+    }
+
+    label{
+        color: #ffffff;
+    }
+
+    .login input[type="text" ]:focus , input[type= "password"]:focus {
+        width: 380px;
+    }
+    
+    a{
+        text-decoration: none;
+    }
+    .login h4{
+        color: #ffffff;
+        font-size: 17px;
+        margin-top: 10px;
+        transition: 1s;
+        
+    }
+
+    .login h4:hover{
+        font-size: 20px;
+        color: #ffffff;
