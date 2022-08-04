@@ -1,0 +1,91 @@
+@font-face {
+    font-family:"vazir";
+    font-weight:normal;
+    src: url( "../Fonts/Vazir.eot" );
+    src: 
+    url( "../Fonts/Vazir.woff" )
+    format( "woff" ),
+    url( "../Fonts/Vazir.ttf" )
+    format( "truetype" );
+}
+
+*{
+    font-family: "vazir" !important;
+    direction: rtl;
+    line-height: 35px;
+    box-sizing: border-box;
+  
+  }
+  
+  a{
+    text-decoration: none;
+    color: black;
+  }
+
+  a:hover{
+    color: #6c757d
+  }
+  
+  .loginbtn{
+    width: 150px;
+    height: 50px;
+    border: 2px solid rgb(212, 155, 49);
+    background-color: white;
+    color: rgb(212, 155, 49);
+    font-size: 5 rem;
+    outline: 0;
+    
+    
+  }
+  
+  .loginbtn:hover{
+    color: white;
+    background-color:rgb(212, 155, 49) ;
+  }
+
+  
+  .search-box{
+    border: 2px solid rgb(206, 206, 206) ;
+    border-radius: 40px;
+     font-size: 16px;
+     line-height: 40px;
+     width: 80%;
+     padding: 12px 30px;
+     outline: 0;
+     margin-right: 2.2rem;
+     
+     
+
+}
+
+  .search-btn{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin-top: 8px;
+ 
+
+  }
+
+  .txt-heading{
+    text-shadow: 2px 2px 25px gray;
+    
+  }
+
+  .main-img{
+    float: right;
+    border-radius: 40px;
+    width: 370px;
+    height: 250px;
+  }
+
+  .dark-link{
+    color: white;
+  }
+
+  .dark-link:hover{
+    color: #6c757d;
+  }
+
+  
+
